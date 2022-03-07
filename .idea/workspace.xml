@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6ef2dff7-700e-4f4a-b8b8-761af10e7e29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/ccblog-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ccblog-api/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-api/src/main/resources/application-pro.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
       <updated>1646616002974</updated>
       <workItem from="1646616004149" duration="1395000" />
       <workItem from="1646617487022" duration="616000" />
+      <workItem from="1646618311675" duration="97000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1646617503423</created>
@@ -90,10 +92,14 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1646618070019" />
-    <state x="147" y="64" key="DiffContextDialog" timestamp="1646616303061">
+    <state width="372" height="442" key="Diff.GoToChangePopup" timestamp="1646618371694">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="147" y="64" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1646616303061" />
+    <state width="372" height="442" key="Diff.GoToChangePopup/0.0.1536.816@0.0.1536.816" timestamp="1646618371694" />
+    <state x="147" y="64" key="DiffContextDialog" timestamp="1646618376585">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="147" y="64" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1646618376585" />
     <state x="533" y="110" key="RollbackChangesDialog" timestamp="1646616333037">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -102,13 +108,13 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1646617892054" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1646618078093">
+    <state x="367" y="60" key="Vcs.Push.Dialog.v2" timestamp="1646618380055">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1646618078093" />
-    <state x="573" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1646617390227">
+    <state x="367" y="60" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1646618380055" />
+    <state x="573" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1646618322085">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="573" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1646617390227" />
+    <state x="573" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1646618322085" />
   </component>
 </project>
