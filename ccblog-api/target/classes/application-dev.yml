@@ -1,0 +1,97 @@
+server:
+  port: 9003
+  servlet:
+    context-path: /ccblog
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/ccblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource # 自定义数据源
+    #Spring Boot 默认是不注入这些属性值的，需要自己绑定
+    #druid 数据源专有配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: false
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    stat-view-servlet:
+      enabled: false
+    web-stat-filter:
+      enabled: false
+    filter:
+      config:
+        enabled: false
+    #配置监控统计拦截的filters，stat:监控统计、log4j：日志记录、wall：防御sql注入
+    #如果允许时报错  java.lang.ClassNotFoundException: org.apache.log4j.Priority
+    #则导入 log4j 依赖即可，Maven 地址：https://mvnrepository.com/artifact/log4j/log4j
+    filters: stat,log4j2,wall
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+    connectionInitSqls: set names utf8mb4
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 20000
+  mail:
+    host: smtp.163.com
+    username: kudaompq@163.com
+    password: EKESVZFCPNEADLXV
+    port: 25
+    protocol: smtp
+
+# mybatis-plus配置
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  # 别名设置
+  type-aliases-package: top.kudaompq.pojo
+  configuration:
+    #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 开启驼峰映射
+    map-underscore-to-camel-case: true
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: false
+
+datealive:
+  jwt:
+    # 加密秘钥
+    secret: cwl2019ceit48f86b67cde581c0f9e11
+    # token有效时长，7天，单位秒
+    expire: 604800
+    header: token
+
+#swagger开关
+swagger:
+  enable: true
+
+custom:
+  url:
+    api: http://localhost:${server.port}
+    cms: http://localhost:9001
+    website: http://localhost:9002
+  blog:
+    name: CCBlog
+
+upload:
+  path: E:\workspace\upload
+  access:
+    path: /image/**
+  resources:
+    location: file:${upload.path}
+  github:
+    token: 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
+    username: Kudaompq
+    repos: CDN
+    repos-path: /comment/avatar
+
+
+

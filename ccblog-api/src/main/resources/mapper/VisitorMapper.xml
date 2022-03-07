@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.kudaompq.mapper.VisitorMapper">
+    <update id="updatePVAndLastTimeByUUID">
+        update visitor
+        set pv = #{pv} , last_time = #{createTime}
+        where uuid = #{uuid}
+    </update>
+
+    <!--查询uuid是否存在数据库中-->
+    <select id="hasUUID" resultType="java.lang.Integer">
+        select IFNULL((select 1 from visitor where uuid = #{uuid} limit 1),0)
+    </select>
+    <!--查询昨天新增访客的来源-->
+    <select id="getNewVisitorIpSourceByYesterday" resultType="java.lang.String">
+        select ip_source from visitor where date (create_time) = date_sub(curdate(),interval 1 day )
+    </select>
+</mapper>

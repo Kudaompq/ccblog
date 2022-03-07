@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.kudaompq.mapper.VisitLogMapper">
+
+    <!--查看昨天的访问记录-->
+    <select id="getUUIDAndCreateTimeByYesterday" resultType="top.kudaompq.model.dto.VisitLogUUIDTime">
+        select uuid,create_time from visit_log where date(create_time)=date_sub(curdate(),interval 1 day ) order by create_time desc
+    </select>
+    <select id="countVisitLogByToday" resultType="java.lang.Integer">
+        select count(*) from visit_log where date(create_time) = curdate()
+    </select>
+</mapper>

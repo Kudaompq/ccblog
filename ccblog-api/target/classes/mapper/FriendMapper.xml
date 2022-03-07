@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.kudaompq.mapper.FriendMapper">
+
+    <resultMap id="friendVO" type="top.kudaompq.model.vo.FriendVO">
+        <id property="id" column="id"/>
+        <result property="nickname" column="nickname"/>
+        <result property="description" column="description"/>
+        <result property="website" column="website"/>
+        <result property="avatar" column="avatar"/>
+    </resultMap>
+    <select id="getFriendVOList" resultMap="friendVO">
+        select id,nickname, description, website, avatar
+        from friend
+        where is_published = true
+    </select>
+</mapper>

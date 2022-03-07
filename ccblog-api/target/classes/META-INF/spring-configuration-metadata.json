@@ -1,0 +1,34 @@
+{
+  "groups": [
+    {
+      "name": "datealive.jwt",
+      "type": "top.kudaompq.utils.JwtUtils",
+      "sourceType": "top.kudaompq.utils.JwtUtils"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "top.kudaompq.config.DruidConfig",
+      "sourceMethod": "druid()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "datealive.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "top.kudaompq.utils.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "datealive.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "top.kudaompq.utils.JwtUtils"
+    },
+    {
+      "name": "datealive.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "top.kudaompq.utils.JwtUtils"
+    }
+  ],
+  "hints": []
+}

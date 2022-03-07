@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.kudaompq.mapper.TagMapper">
+
+    <resultMap id="tagBlogCount" type="top.kudaompq.model.vo.TagBlogCount">
+        <id property="id" column="tag_id"/>
+        <result property="value" column="blog_count"/>
+    </resultMap>
+    <select id="getTagBlogCountList" resultMap="tagBlogCount">
+        select tag_id,count(tag_id) as blog_count from blog_tag group by tag_id
+    </select>
+</mapper>

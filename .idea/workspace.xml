@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ef2dff7-700e-4f4a-b8b8-761af10e7e29" name="Default Changelist" comment="v1.0">
+      <change afterPath="$PROJECT_DIR$/ccblog-view/public/img/comment-avatar/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/public/img/comment-avatar/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/public/img/comment-avatar/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/public/img/comment-avatar/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/public/img/comment-avatar/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/public/img/comment-avatar/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/public/img/comment-avatar/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/public/img/comment-avatar/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/public/img/comment-avatar/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/public/img/comment-avatar/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/api/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/api/archive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/api/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/api/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/api/friend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/api/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/api/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/api/tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/assets/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/assets/css/typo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/assets/icon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/assets/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/assets/icon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/assets/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/assets/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/assets/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/blog/BlogItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/blog/BlogList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/comment/Comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/comment/CommentForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/comment/CommentList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/comment/Pagination.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/index/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/index/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/index/Nav.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/sidebar/Categories.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/sidebar/Introduce.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/sidebar/Recommend.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/sidebar/Tags.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/components/sidebar/Tocbot.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/plugins/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/store/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/store/mutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/store/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/utils/dateTimeFormatUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/utils/directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/utils/reg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/views/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/views/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/views/about/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/views/archives/Archives.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/views/blog/Blog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/views/category/Category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/views/friends/Friends.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/views/moments/Moments.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/src/views/tag/Tag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccblog-view/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ccblog-view/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ccblog-view/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/ccblog-view/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ccblog-view/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ccblog-view/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ccblog-view/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ccblog-view/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ccblog-view/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ccblog-view/src/views/Home.vue" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ccblog-view" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven\apache-maven-3.6.3\maven-repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=local" />
+  </component>
+  <component name="ProjectId" id="262JyaiD74URnoy9OqTwVQyK3GV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ef2dff7-700e-4f4a-b8b8-761af10e7e29" name="Default Changelist" comment="" />
+      <created>1646616002974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646616002974</updated>
+      <workItem from="1646616004149" duration="458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1646616306820">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1646616306820" />
+    <state x="147" y="64" key="DiffContextDialog" timestamp="1646616303061">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="147" y="64" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1646616303061" />
+    <state x="533" y="110" key="RollbackChangesDialog" timestamp="1646616333037">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="533" y="110" key="RollbackChangesDialog/0.0.1536.816@0.0.1536.816" timestamp="1646616333037" />
+    <state x="270" y="53" key="SettingsEditor" timestamp="1646616091963">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="270" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1646616091963" />
+    <state x="573" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1646616318340">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="573" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1646616318340" />
+  </component>
+</project>
