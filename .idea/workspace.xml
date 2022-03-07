@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef2dff7-700e-4f4a-b8b8-761af10e7e29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ccblog-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ccblog-api/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +35,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ccblog-api/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.56666666" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\project\CCBlog-main\ccblog-api\src\main\resources" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646616002974</updated>
       <workItem from="1646616004149" duration="1395000" />
-      <workItem from="1646617487022" duration="531000" />
+      <workItem from="1646617487022" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1646617503423</created>
@@ -61,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646617503423</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v1.0">
+      <created>1646618070561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646618070561</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,10 +86,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="v1.0" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1646617502601">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1646618070019">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1646617502601" />
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1646618070019" />
     <state x="147" y="64" key="DiffContextDialog" timestamp="1646616303061">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -91,10 +102,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1646617892054" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1646617953025">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1646618078093">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1646617953025" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1646618078093" />
     <state x="573" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1646617390227">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

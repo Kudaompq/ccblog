@@ -5,8 +5,8 @@ server:
 
 spring:
   datasource:
-    username: root
-    password: root
+    username: ccblog
+    password: ts76WhczEDCYELnh
     url: jdbc:mysql://localhost:3306/ccblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource # 自定义数据源
@@ -55,7 +55,7 @@ mybatis-plus:
   # 别名设置
   type-aliases-package: top.kudaompq.pojo
   configuration:
-    #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     # 开启驼峰映射
     map-underscore-to-camel-case: true
     lazy-loading-enabled: true
@@ -71,15 +71,15 @@ datealive:
 
 #swagger开关
 swagger:
-  enable: true
+  enable: false
 
 custom:
   url:
     api: http://localhost:${server.port}
-    cms: http://localhost:9001
-    website: http://localhost:9002
+    cms: https://admin.kudaompq.top
+    website: https://kudaompq.top
   blog:
-    name: CCBlog
+    name: Kudaompq的博客
 
 upload:
   path: E:\workspace\upload
@@ -88,7 +88,7 @@ upload:
   resources:
     location: file:${upload.path}
   github:
-    token: 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
+    token: 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
     username: Kudaompq
     repos: CDN
     repos-path: /comment/avatar
