@@ -69,7 +69,7 @@ export default {
     //监听页码改变的事件
     handleCurrentChange(newPage) {
       this.pageNum = newPage
-      this.getData()
+      this.getBlogList()
     }
   }
 }

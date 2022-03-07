@@ -45,7 +45,7 @@ spring:
   mail:
     host: smtp.163.com
     username: kudaompq@163.com
-    password: EKESVZFCPNEADLXV
+    password: fsada*****
     port: 25
     protocol: smtp
 
@@ -64,7 +64,7 @@ mybatis-plus:
 datealive:
   jwt:
     # 加密秘钥
-    secret: cwl2019ceit48f86b67cde581c0f9e11
+    secret: cwl2019ceit48************1
     # token有效时长，7天，单位秒
     expire: 604800
     header: token
@@ -88,7 +88,7 @@ upload:
   resources:
     location: file:${upload.path}
   github:
-    token: gh**************************
+    token: ghp_rQ1Srm******************
     username: Kudaompq
     repos: CDN
     repos-path: /comment/avatar

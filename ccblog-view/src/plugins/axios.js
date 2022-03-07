@@ -3,8 +3,8 @@ import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 
 const request = axios.create({
-    // baseURL: 'https://api.kudaompq.top/ccblog',
-    baseURL: 'http://localhost:9003/ccblog',
+    baseURL: 'https://api.kudaompq.top/ccblog',
+    // baseURL: 'http://localhost:9003/ccblog',
     timeout: 10000
 })
 

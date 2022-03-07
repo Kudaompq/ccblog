@@ -66,7 +66,7 @@ export default {
     },
     handleCurrentChange(newPage){
       this.pageNum = newPage
-
+      this.getData()
     }
   }
 }
