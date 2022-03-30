@@ -88,7 +88,7 @@ upload:
   resources:
     location: file:${upload.path}
   github:
-    token: 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
+    token: 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
     username: Kudaompq
     repos: CDN
     repos-path: /comment/avatar

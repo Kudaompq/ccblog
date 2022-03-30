@@ -65,6 +65,7 @@ public class UserAdminController {
         map.put("token",jwt);
         LoginLog log = handleLog(request, user, true, "登录成功");
         loginLogService.saveLoginLog(log);
+
         BeanUtils.copyProperties(user,userInfo);
         return Result.success("登录成功",map);
     }

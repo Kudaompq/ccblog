@@ -1,5 +1,5 @@
 <template>
-  <div align="center" class="footer-wrap">
+  <div align="center" class="footer-wrap ">
       <p v-text="siteInfo.copyright.title"></p>
       <a href="https://www.miit.gov.cn/" target="_blank" style="color: white">
         <img class="icp-icon" src="https://s1.ax1x.com/2018/09/29/ilmwIH.png" data-original="https://s1.ax1x.com/2018/09/29/ilmwIH.png">

@@ -1,38 +1,47 @@
 <template>
   <div>
     <Nav :categoryList="categoryList"></Nav>
-    <div class="m-mobile-hide">
-      <Header v-if="$route.name==='home'"></Header>
-    </div>
+    <!--<div class="m-mobile-hide">-->
+    <!--  <Header v-if="$route.name==='home'"></Header>-->
+    <!--</div>-->
     <div class="main">
       <div class="m-padded-tb-big">
         <div class="ui container">
           <div class="ui stackable grid">
             <!--左侧个人面板-->
-            <div class="three wide column m-mobile-hide">
-              <Introduce></Introduce>
-            </div>
-            <!--中间主要内容-->
-            <div class="ten wide column">
-              <keep-alive include="Home">
-                <router-view/>
-              </keep-alive>
-            </div>
-            <!--右侧面板-->
-            <div class="three wide column m-mobile-hide">
+            <div class="four wide column m-mobile-hide">
+              <Introduce v-if="$route.name !== 'blog'"></Introduce>
               <Recommend :randomBlogList="randomBlogList" v-if="$route.name !== 'blog'"></Recommend>
               <Categories :categoryList="categoryList" v-if="$route.name !== 'blog'"></Categories>
               <Tags :tagList="tagList" v-if="$route.name !== 'blog'"></Tags>
               <Tocbot v-if="$route.name==='blog'" />
             </div>
+            <!--中间主要内容-->
+            <div class="twelve wide column">
+              <keep-alive include="Home">
+                <router-view/>
+              </keep-alive>
+            </div>
+
           </div>
         </div>
       </div>
       <el-backtop>
-        <i class="angle up icon"></i>
+        <div
+            style="{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+      }"
+        >
+          UP
+        </div>
       </el-backtop>
     </div>
+
     <Footer :siteInfo="siteInfo"></Footer>
+
   </div>
 </template>
 
@@ -100,12 +109,12 @@ export default {
 }
 
 .main {
-  margin-top: 40px;
+  margin-top: 60px;
   flex: 1;
 }
 
 .main .ui.container {
-  width: 1400px !important;
+  width: 1110px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }

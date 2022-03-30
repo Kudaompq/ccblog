@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="m-box">
     <div class="ui padded attached segment m-padded-tb-large">
       <div class="ui large red right corner label" v-if="blog.top">
         <i class="arrow alternate circle up icon"></i>

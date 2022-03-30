@@ -1,7 +1,7 @@
 <template>
   <div class="ui segments m-box">
     <div class="ui segment"><i class="folder open outline icon"></i>分类</div>
-    <div class="ui teal segment">
+    <div class="ui segment">
       <div class="ui middle  selection list">
         <div class="item" v-for="cate in categoryList" :key="cate.id">
           <div class="content">
@@ -45,5 +45,10 @@ export default {
 </script>
 
 <style scoped>
-
+.ui.selection.list>.item{
+  color: #333333!important;
+}
+.ui.selection.list>.item:hover{
+  color: rgba(0,0,0,.4) !important;
+}
 </style>

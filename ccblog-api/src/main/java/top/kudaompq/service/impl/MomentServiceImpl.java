@@ -32,7 +32,7 @@ public class MomentServiceImpl extends ServiceImpl<MomentMapper, Moment> impleme
     @Override
     public IPage<Moment> getMomentListByPage(Integer pageNum, Integer pageSize) {
         Page<Moment> momentPage = new Page<>(pageNum, pageSize);
-        Page<Moment> res = momentMapper.selectPage(momentPage, new QueryWrapper<Moment>().eq("is_published",true));
+        Page<Moment> res = momentMapper.selectPage(momentPage, new QueryWrapper<Moment>().eq("is_published",true).orderByDesc("create_time"));
         ArrayList<Moment> moments = new ArrayList<>();
         for (Moment record : res.getRecords()) {
             record.setContent(MarkdownUtils.markdownToHtmlExtensions(record.getContent()));

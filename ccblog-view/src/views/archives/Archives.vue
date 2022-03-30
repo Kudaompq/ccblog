@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="m-box">
     <div class="ui top attached segment" style="text-align: center">
       <h2 class="m-text-500">文章归档</h2>
       <span>目前只写了{{ count }}篇文章哦</span>

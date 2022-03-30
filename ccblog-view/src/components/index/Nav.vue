@@ -1,8 +1,8 @@
 <template>
-  <div ref="nav" class="ui fixed inverted stackable pointing  menu" :class="{'transparent': $route.name==='home' && clientSize.clientWidth>768}">
+  <div ref="nav" class="ui fixed stackable  menu" :class="{'transparent': $route.name==='home' && clientSize.clientWidth>768}">
     <div class="ui container">
       <router-link to="/">
-        <h3 class="ui header item m-grey ">{{ $store.state.siteInfo.blogName }}</h3>
+        <h3 class="ui header item ">{{ $store.state.siteInfo.blogName }}</h3>
       </router-link>
 
       <router-link to="/home" class="item right" :class="{'m-mobile-hide': mobileHide,'active':$route.name==='home'}">
@@ -39,7 +39,7 @@
           <span class="content">{{ item.content }}</span>
         </template>
       </el-autocomplete>
-      <button class="ui menu black icon button m-right-top m-mobile-show" @click="toggle">
+      <button class="ui menu icon button m-right-top m-mobile-show" @click="toggle" style="border: none">
         <i class="sidebar icon"></i>
       </button>
     </div>
@@ -150,26 +150,26 @@ export default {
 
 <style scoped>
 .ui.fixed.menu .container {
-  width: 1400px !important;
+  width: 1110px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
-.ui.fixed.menu {
-  transition: .3s ease-out;
-}
+/*.ui.fixed.menu {*/
+/*  transition: .3s ease-out;*/
+/*}*/
 
-.ui.inverted.menu.pointing.transparent {
-  background: transparent !important;
-}
+/*.ui.inverted.menu.pointing.transparent {*/
+/*  background: transparent !important;*/
+/*}*/
 
-.ui.inverted.menu.pointing.transparent .active.item:after {
-  background: transparent !important;
-  transition: .3s ease-out;
-}
+/*.ui.inverted.menu.pointing.transparent .active.item:after {*/
+/*  background: transparent !important;*/
+/*  transition: .3s ease-out;*/
+/*}*/
 
-.ui.inverted.menu.pointing.transparent .active.item:hover:after {
-  background: transparent !important;
-}
+/*.ui.inverted.menu.pointing.transparent .active.item:hover:after {*/
+/*  background: transparent !important;*/
+/*}*/
 
 .el-dropdown-link {
   outline-style: none !important;
@@ -182,16 +182,16 @@ export default {
   margin: 7px 0 0 0 !important;
   padding: 0 !important;
   border: 0 !important;
-  background: #1b1c1d !important;
+  /*background: #1b1c1d !important;*/
 }
 
 .el-dropdown-menu__item {
   padding: 0 15px !important;
-  color: rgba(255, 255, 255, .9) !important;
+  /*color: rgba(255, 255, 255, .9) !important;*/
 }
 
 .el-dropdown-menu__item:hover {
-  background: rgba(255, 255, 255, .08) !important;
+  /*background: rgba(255, 255, 255, .08) !important;*/
 }
 
 .m-search {
@@ -199,14 +199,14 @@ export default {
   padding: 0 !important;
 }
 .m-search >>> .el-input__inner {
-  color: rgba(255, 255, 255, .9);
+  /*color: rgba(255, 255, 255, .9);*/
   border: 0px !important;
   background-color: inherit;
   padding: .67857143em 2.1em .67857143em 1em;
 }
 
 .m-search  i {
-  color: rgba(255, 255, 255, .9) !important;
+  /*color: rgba(255, 255, 255, .9) !important;*/
 }
 
 .m-search-item li {
@@ -227,6 +227,12 @@ export default {
 }
 .ui.header.item:before{
   width: 0px;
+}
+.ui.menu .item:before{
+  width: 0px;
+}
+.ui.menu{
+  box-shadow: 0 0 0 0 rgb(34 36 38 / 15%);
 }
 
 </style>

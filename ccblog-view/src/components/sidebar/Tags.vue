@@ -1,14 +1,8 @@
 <template>
   <div class="ui segments m-box">
     <div class="ui segment"><i class="tags icon"></i>标签云</div>
-    <div class="ui teal segment m-padded-none">
-      <tag-cloud
-          :data="tagList"
-          @clickTag="clickTagItem"
-          :config="config"
-          style="margin-left: -10px"
-      >
-      </tag-cloud>
+    <div class="ui segment m-padded-none card-tag-cloud text-center">
+      <a href="" @click.prevent="clickTagItem(tag)" v-for="tag in tagList" :key="tag.id">{{tag.name}}</a>
     </div>
   </div>
 </template>
@@ -18,15 +12,6 @@ export default {
   name: "Tags",
   data(){
     return {
-      config: {
-        radius: 100, // 滚动半径，单位px
-        maxFont: 24, // 最大字体大小
-        color: null, // 字体颜色。为空时随机
-        rotateAngleXbase: 1000, // 默认旋转速度基数，数越小速度越快
-        rotateAngleYbase: 1000,
-        hover: false // 是否开启悬浮联动
-      }
-
     }
   },
   props:{
@@ -50,4 +35,33 @@ export default {
 </script>
 
 <style scoped>
+/*card-tag-cloud*/
+.card-tag-cloud{
+  list-style-type: none;
+}
+.card-tag-cloud a {
+  color: #333;
+  font-size: 1em !important;
+  margin: 1px !important;
+  display: inline-block;
+  padding: 0 0.1rem;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.card-tag-cloud a:hover {
+  color: #49b1f5 !important;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+@media screen and (max-width: 768px) {
+  .card-tag-cloud a {
+    zoom: 0.85;
+  }
+}
 </style>

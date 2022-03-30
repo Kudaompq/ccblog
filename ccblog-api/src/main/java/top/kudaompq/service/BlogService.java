@@ -44,7 +44,7 @@ public interface BlogService extends IService<Blog> {
 
     String getTitleById(Long id);
 
-    List<Blog> getIdAndTitleList();
+    List<Blog>  getIdAndTitleList();
 
     void updateViewsToRedis(Long id);
 

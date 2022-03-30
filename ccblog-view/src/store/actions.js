@@ -15,7 +15,6 @@ export default {
         form.page = rootState.commentQuery.page
         form.blogId = rootState.commentQuery.blogId
         form.parentCommentId = rootState.parentCommentId
-        console.log(form)
         submitComment(token, form).then(res => {
             if (res.code === 200) {
                 Notification({

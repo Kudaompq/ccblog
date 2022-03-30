@@ -4,7 +4,7 @@ body,
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #efefef;
+    /*background-color: #efefef;*/
     background-attachment: fixed;
     background-size: cover;
     background-position: left top;
@@ -86,15 +86,31 @@ input::-webkit-inner-spin-button {
 
 /*shadow*/
 .m-box {
-    transition: all 0.25s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0s !important;
+    border-radius: 8px !important;
+    -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06) !important;
+    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06) !important;
+    -webkit-transition: box-shadow 0.3s !important;
+    -moz-transition: box-shadow 0.3s !important;
+    -o-transition: box-shadow 0.3s !important;
+    -ms-transition: box-shadow 0.3s !important;
+    transition: box-shadow 0.3s !important;
 }
 
 .m-box:hover {
-    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.2), 0 2px 4px 0px rgba(0, 0, 0, 0.2), 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+    -webkit-box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15) !important;
+    box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15) !important;
 }
 
 .m-box:active {
-    box-shadow: 0 1px 2px 0px rgba(72, 219, 251, 0.3), 0 2px 4px 0px rgba(72, 219, 251, 0.3), 0 4px 8px 0px rgba(72, 219, 251, 0.3), 0 8px 16px 0px rgba(72, 219, 251, 0.3) !important;
+    /*box-shadow: 0 1px 2px 0px rgba(72, 219, 251, 0.3), 0 2px 4px 0px rgba(72, 219, 251, 0.3), 0 4px 8px 0px rgba(72, 219, 251, 0.3), 0 8px 16px 0px rgba(72, 219, 251, 0.3) !important;*/
+    border-radius: 8px !important;
+    -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06) !important;
+    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06) !important;
+    -webkit-transition: box-shadow 0.3s !important;
+    -moz-transition: box-shadow 0.3s !important;
+    -o-transition: box-shadow 0.3s !important;
+    -ms-transition: box-shadow 0.3s !important;
+    transition: box-shadow 0.3s !important;
 }
 
 @media (max-width: 768px) {
@@ -154,6 +170,9 @@ input::-webkit-inner-spin-button {
 /*position*/
 .m-center {
     margin: auto !important;
+}
+.text-center{
+    text-align: center!important;
 }
 
 
@@ -272,20 +291,21 @@ input::-webkit-inner-spin-button {
 
 
 .footer-wrap{
+    margin-top: 50px;
+    border-top: 1px solid lightgray;
     width:100%;
     line-height:2;
-    position:relative;
-    padding:40px 20px;
-    color:#eee;font-size:14px;
+    padding:20px 0px;
+    color:black;font-size:14px;
     text-align:center;
-    background:linear-gradient(-45deg,#ee7752,#ce3e75,#23a6d5,#23d5ab);
-    background-size:400% 400%;
-    animation:Gradient 10s ease infinite}
+}
 .footer-wrap a{
-    color:#eee!important
+    color:black!important
 }
 @keyframes Gradient{
     0%{background-position:0 50%}
     50%{background-position:100% 50%}
     to{background-position:0 50%}
 }
+
+

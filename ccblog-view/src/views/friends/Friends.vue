@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="m-box">
     <div class="ui top attached segment" style="text-align: center">
       <h2 class="m-text-500">友情链接</h2>
     </div>

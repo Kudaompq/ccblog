@@ -107,7 +107,7 @@ export default {
         value: "{\"title\":\"\",\"content\":\"\"}"
       })
     },
-    addBadge() {
+     addBadge() {
       this.typeMap.type2.push({
         key: Date.now(),
         nameEn: "badge",
@@ -139,7 +139,7 @@ export default {
         })
       }
     },
-    deleteBadge(badge){
+     deleteBadge(badge){
       let arr = this.typeMap.type2
       if (badge.id) {
         this.deleteIds.push(badge.id)

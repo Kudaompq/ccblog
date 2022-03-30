@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="m-box">
     <div class="ui top attached segment" style="text-align: center">
       <h2 class="m-text-500">我的动态</h2>
     </div>

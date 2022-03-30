@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="m-box">
   <div class="ui top attached segment m-padded-lr-big" v-if="about">
     <h2 class="m-text-500" style="text-align: center">{{ about.title }}</h2>
     <meting-js server="netease" type="song" :id="1441758494" theme="#25CCF7" v-if="about.musicId!==''"></meting-js>
